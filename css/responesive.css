@@ -1,0 +1,90 @@
+
+@media (max-width:1520px) {
+    .max-width {
+        max-width: 100%;
+        width: 100%;
+        margin: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+        box-sizing: border-box;
+
+    }
+    .header {
+      
+        padding: 10px 0px;
+}
+
+
+@media (max-width:1024px) {
+    .header-left {
+        width: 100%;
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    .header-right {
+        width: 100%;
+        text-align: center;
+    }
+    .header-right ul {
+        text-align: center;
+        list-style: none;
+    }
+    
+}
+
+
+@media (max-width:768px) {
+    .header-right ul li a {
+        padding: 11px 20px;
+        border-right: none;  
+    }
+    .header-right ul li:first-child a {
+        border-left: none;
+    }
+    .service {
+       
+        padding: 20px;
+    }
+    .service-item {
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .blog-contain-left {
+        width: 100%;
+    }
+    .blog-contain-right {
+        width: 100%;
+    }
+}
+
+@media (max-width:576px) {
+    .baner {
+        padding: 100px 0px;
+    }
+    .baner-caption h1 {
+        font-size: 20px;
+    }
+    .baner-caption h2 {
+        font-size: 15px;
+        padding: 10px 10px;
+    }
+    .fotter-left {
+        width: 100%;
+        text-align: center;
+        display: block;
+    }
+    .fotter-right {
+        width: 100%;
+    }
+    .fotter-right ul {
+        text-align: center;
+        margin: 10px 0px;
+    }
+    .fotter-right ul li a {
+        margin: 0px 5px;
+    }
+}
+
+
